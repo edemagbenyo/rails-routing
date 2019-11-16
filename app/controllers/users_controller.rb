@@ -1,21 +1,17 @@
-class UsersController < ApplicationController
+# frozen_string_literal: true
 
+class UsersController < ApplicationController
   def index
     @name = "That's my name"
   end
- 
-  def create
-  end
 
-  def edit
-  end
+  def create; end
 
-  def show
-  end
-  
-  def update
-  end
+  def edit; end
 
-  def destroy
-  end
+  def show; end
+
+  def update; end
+
+  def destroy; end
 end
